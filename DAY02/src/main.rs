@@ -19,7 +19,7 @@ fn sol1() {
         panic!("Sol1's data is crap");
     }
     let re = Regex::new(r"^(\d+)-(\d+) ([[:alpha:]]): ([[:alpha:]]+)$").unwrap();
-    let data: usize = tmp.unwrap().split('\n')
+    println!("{}", tmp.unwrap().split('\n')
         //.map(|x| x.to_string())
         .filter(|x| {
             let caps = re.captures(x).unwrap();
@@ -29,8 +29,7 @@ fn sol1() {
             let ccount = caps[4].matches(letter).count();
             maxcount >= ccount && mincount <= ccount
         })
-        .collect::<Vec<&str>>().len();
-    println!("{:?}", &data);
+        .count());
 }
 
 fn sol2() {
@@ -41,7 +40,7 @@ fn sol2() {
         panic!("Sol2's data is crap");
     }
     let re = Regex::new(r"^(\d+)-(\d+) ([[:alpha:]]): ([[:alpha:]]+)$").unwrap();
-    let data: usize = tmp.unwrap().split('\n')
+    println!("{}", tmp.unwrap().split('\n')
         //.map(|x| x.to_string())
         .filter(|x| {
             let caps = re.captures(x).unwrap();
@@ -54,8 +53,7 @@ fn sol2() {
                 false => pass.chars().nth(idxtwo-1).unwrap() == letter
             }
         })
-        .collect::<Vec<&str>>().len();
-    println!("{:?}", &data);
+        .count());
 }
 
 fn main() {
