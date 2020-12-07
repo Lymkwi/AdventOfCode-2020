@@ -17,7 +17,7 @@ fn sol1() {
     let mut table: Vec<i32> = data.split('\n')
         .map(|x| x.trim().parse::<i32>().unwrap()).collect();
 
-    table.sort();
+    table.sort_unstable();
     let tmin = table[0];
     let tmax = table[table.len()-1];
     let filtered: Vec<i32> = table.into_iter()
@@ -42,7 +42,7 @@ fn sol2() {
     }
     let data = tmp.unwrap();
     let mut table: Vec<i32> = data.split('\n').map(|x| x.trim().parse::<i32>().unwrap()).collect();
-    table.sort();
+    table.sort_unstable();
     let tmin = table[0];
     let tmax = table[table.len()-1];
     let filtered: Vec<i32> = table.into_iter()
@@ -50,17 +50,14 @@ fn sol2() {
         .collect();
     //println!("{}, {}, {:?}\n{:?}", tmin, tmax, &data, &filtered);
 
-    for i in 0..filtered.len() {
+    'a: for i in 0..filtered.len() {
         let a = filtered[i];
         for j in 0..i {
             let b = filtered[j];
             if (a+b) > 2020 { break; }
-            for k in 0..j {
-                let c = filtered[k];
-                if a+b+c > 2020 {break;}
-                if a+b+c == 2020 {
-                    println!("{}", a*b*c);
-                }
+            match filtered.iter().filter(|&&c| a+b+c == 2020).next() {
+                Some(k) => {println!("{}", k*a*b); break 'a;},
+                None => {}
             }
         }
     }
