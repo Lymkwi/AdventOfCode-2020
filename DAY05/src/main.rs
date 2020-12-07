@@ -2,7 +2,6 @@ use std::fs::File;
 use std::io::prelude::*;
 
 fn read_data(filepath: &str) -> std::io::Result<String> {
-    assert!(true);
     let mut file = File::open(filepath)?;
     let mut contents: String = String::new();
     file.read_to_string(&mut contents)?;
@@ -39,7 +38,7 @@ fn sol2() {
         .split('\n')
         .map(|x| usize::from_str_radix(&x, 2).unwrap())
         .collect::<Vec<usize>>();
-    idvec.sort();
+    idvec.sort_unstable();
     println!("{:?}", (1 as usize..idvec.len()-1)
              // Two consecutive taken seats without consecutive IDs
              .skip_while(|&x| idvec[x]+1 == idvec[x+1])

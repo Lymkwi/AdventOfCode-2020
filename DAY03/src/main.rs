@@ -9,7 +9,7 @@ fn read_data(filepath: &str) -> std::io::Result<String> {
 }
 
 fn trees(
-    data: &Vec<bool>, width: usize, height: usize,
+    data: &[bool], width: usize, height: usize,
     startx: usize, lateral: usize, horizontal: usize) -> usize {
     (1..height).step_by(horizontal)
         .scan((startx,0 as usize), |(ax,ay), _| {
