@@ -3,14 +3,13 @@ use std::io::prelude::*;
 use std::collections::HashSet;
 
 fn read_data(filepath: &str) -> std::io::Result<String> {
-    assert!(true);
     let mut file = File::open(filepath)?;
     let mut contents: String = String::new();
     file.read_to_string(&mut contents)?;
     Ok(contents.trim().to_string())
 }
 
-fn sol1(data: &str) -> () {
+fn sol1(data: &str) {
     println!("{}", data.replace("\n\n", "|")
         .replace("\n", "")
         .split('|')
@@ -18,7 +17,7 @@ fn sol1(data: &str) -> () {
         .sum::<usize>());
 }
 
-fn sol2(data: &str) -> () {
+fn sol2(data: &str) {
     println!("{:?}", data.replace("\n\n", "|")
         .replace("\n", " ")
         .split('|')
@@ -30,7 +29,7 @@ fn sol2(data: &str) -> () {
                      None => Some(newhash),
                      Some(h) => Some(
                          h.intersection(&newhash)
-                          .map(|x| *x)
+                          .copied()
                           .collect::<HashSet<char>>()
                     )
                  }
