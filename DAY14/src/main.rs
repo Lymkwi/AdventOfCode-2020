@@ -48,9 +48,6 @@ impl BitMask {
     fn get_mask(&self) -> usize { self.mask }
     fn get_application(&self) -> usize { self.application }
     //fn get_base(&self) -> usize { self.application & (!self.mask) }
-    fn collides(&self, u: usize) -> bool {
-        u&(!self.mask) ^ self.application == 0
-    }
     fn string(&self) -> String {
         (0..=37).map(|idx| {
             match (self.mask & (1<<idx), self.application & (1<<idx)) {
@@ -124,60 +121,8 @@ fn sol1(data: &str) -> Result<usize,()> {
 
 /// # Errors
 ///
-/// Returns () for lack of a better type
-fn sol2(data: &str) -> Result<usize,()> {
-    // The segments represent operations to be done
-    let mut bitsegments: Vec<(BitMask, usize, usize)> = Vec::new();
-    // The currently applied bitmask
-    let mut bitmask: BitMask = BitMask{mask: 0, application: 0};
-    for line in data.split('\n') {
-        // Attempt to parse mask line
-        if let Some(mdata) = MASKLINE.captures(line) {
-            bitmask = mdata[0].parse::<BitMask>().unwrap();
-        } else if let Some(mdata) = MEMOLINE.captures(line) {
-            let (maddr, mval) =
-                (mdata[1].parse::<usize>().unwrap(),
-                    mdata[2].parse::<usize>().unwrap());
-            bitsegments.insert(0, (bitmask, maddr, mval));
-        } else {
-            println!("PANIC: \"{}\"", line);
-            return Err(());
-        }
-    };
-
-    // Insert the base mask (application) and variation mask (mask)
-    let mut collisionrings: Vec<BitMask> = Vec::new();
-    // Total returned at the end
-    let mut absolutetotal = 0;
-    for (bmask, maddr, u) in bitsegments {
-        // bmask: the currently applied bitmask
-        // maddr: the address value
-        // u: the multiplying factor being stored in memory
-
-        // First we create a variation mask
-        // The variation mask describes variation (1) or not (0)
-        let variation_mask = bmask.get_mask();
-
-        // This bitmask contains the variation mask and the "base"
-        // The base is the constant part of the "floating" address
-        let bitmask = BitMask {
-            application: (maddr | bmask.get_application())
-                & (!variation_mask),
-            mask:variation_mask };
-
-        // Work on the collision stack
-        let possibilities = compute_possibilities(bitmask, &collisionrings);
-        // Push this bitmask to the collision stack
-        collisionrings.push(bitmask);
-        absolutetotal += possibilities * u;
-    }
-    Ok(absolutetotal)
-}
-
-/// # Errors
-///
 /// Returns ()
-fn sol2_brute(data: &str) -> Result<usize, ()> {
+fn sol2(data: &str) -> Result<usize, ()> {
     let datalines = data.split('\n').collect::<Vec<&str>>();
     let mut bitmask: BitMask = BitMask{mask: 0, application: 0};
     let mut mem: HashMap<usize,usize> = HashMap::new();
@@ -206,18 +151,6 @@ fn sol2_brute(data: &str) -> Result<usize, ()> {
     Ok(mem.iter().map(|(_,x)| *x).sum::<usize>())
 }
 
-fn compute_possibilities(u: BitMask, ring: &[BitMask]) -> usize {
-    // Generate all possible solutions for bitmask
-    let mut poss = u.generate();
-    // For all previous bitmasks, filter out colliding numbers
-    for v in ring {
-        if poss.is_empty() { break; }
-        poss = poss.into_iter().filter(|&x| !v.collides(x)).collect();
-    }
-    // Return the remaining number of possibilities
-    poss.len()
-}
-
 fn main() {
     let tmp = read_data("input");
     if tmp.is_err() {
@@ -225,7 +158,7 @@ fn main() {
     }
     let data = tmp.unwrap();
     println!("{:?}", sol1(&data));
-    println!("{:?}", sol2_brute(&data));
+    println!("{:?}", sol2(&data));
 }
 
 #[cfg(test)]
