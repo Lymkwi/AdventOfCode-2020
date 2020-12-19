@@ -1,0 +1,1890 @@
+Trying to match Some(Rule(0)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(8), Rule(11)]
+Trying to match Some(Rule(8)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Rule(42)]
+Trying to match Some(Rule(42)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(6)])
+Trying to match Some(Rule(6)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "bbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying to match Some(Rule(11)) against "baabbbbbabbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(6)])
+Trying to match Some(Rule(6)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(14)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying to match Some(Rule(31)) against "bbbabbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(17)])
+Trying to match Some(Rule(17)) against "bbabbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(14), Rule(2)]
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(2)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(2)])
+Trying to match Some(Rule(2)) against "babbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(1), Rule(24)]
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(24)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(24)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(4)]
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(4)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(4)])
+Trying to match Some(Rule(4)) against "abbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "abbbbbbaabaaabaaa" (literal [Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbbaabaaabaaa" (literal [Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbbaabaaabaaa" (literal [])
+Failed 1
+Failed 1
+Failed 4
+Failed 14
+Failed 2
+Failed 14
+Trying sequence S=[Rule(1), Rule(7)]
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(7)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(7)])
+Failed 1
+Failed 17
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(13)])
+Failed 1
+Failed 31
+Failed 14
+Failed 14
+Failed 1
+Failed 6
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(18)])
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Failed 1
+Failed 1
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(11), Rule(31)]
+Trying to match Some(Rule(42)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(6)])
+Trying to match Some(Rule(6)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(14)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying to match Some(Rule(11)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying to match Some(Rule(31)) against "bbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(17)])
+Trying to match Some(Rule(17)) against "bbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(2)]
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(2)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(2)])
+Trying to match Some(Rule(2)) against "bbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(1), Rule(24)]
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(24)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(24)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(4)]
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(4)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(4)])
+Trying to match Some(Rule(4)) against "bbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Failed 1
+Failed 4
+Failed 14
+Failed 2
+Failed 14
+Trying sequence S=[Rule(1), Rule(7)]
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(7)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(7)])
+Failed 1
+Failed 17
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(13)])
+Failed 1
+Failed 31
+Failed 14
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Failed 14
+Failed 15
+Failed 14
+Failed 15
+Failed 18
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Failed 14
+Failed 14
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(11), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11)])
+Trying to match Some(Rule(11)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Trying to match Some(Rule(31)) against "aabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(17)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(13)])
+Trying to match Some(Rule(13)) against "abaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(14), Rule(3)]
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(3)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(3)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(12)]
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(12)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(12)])
+Trying to match Some(Rule(12)) against "baaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(24), Rule(14)]
+Trying to match Some(Rule(24)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(1)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "aabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaa" (literal [Rule(31), Rule(31)])
+Failed 14
+Failed 1
+Failed 14
+Failed 24
+Trying sequence S=[Rule(19), Rule(1)]
+Trying to match Some(Rule(19)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Rule(14), Rule(1)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying to match Some(Rule(1)) against "aabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaa" (literal [Rule(31), Rule(31)])
+Trying to match Some(Rule(31)) against "abaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "abaaa" (literal [Rule(31), Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaa" (literal [Rule(31), Rule(17)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "abaaa" (literal [Rule(31), Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaa" (literal [Rule(31), Rule(13)])
+Trying to match Some(Rule(13)) against "baaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(3)]
+Trying to match Some(Rule(14)) against "baaa" (literal [Rule(31), Rule(3)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaa" (literal [Rule(31), Rule(3)])
+Trying to match Some(Rule(3)) against "aaa" (literal [Rule(31)])
+Trying sequence S=[Rule(5), Rule(14)]
+Trying to match Some(Rule(5)) against "aaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(31), Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(31), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aa" (literal [Rule(31), Rule(14)])
+Failed 14
+Failed 1
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "aa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aa" (literal [Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "a" (literal [Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "a" (literal [Rule(31)])
+Failed 14
+Failed 1
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "aaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaa" (literal [Rule(31), Rule(14), Rule(1)])
+Failed 14
+Failed 15
+Failed 5
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "aaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aa" (literal [Rule(31), Rule(1)])
+Trying to match Some(Rule(1)) against "a" (literal [Rule(31)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "a" (literal [Rule(31)])
+Trying to match Some(Rule(31)) against "" (literal [])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "" (literal [Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "" (literal [Rule(17)])
+Failed Literal('b')
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "" (literal [Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "" (literal [Rule(13)])
+Failed Literal('a')
+Failed 1
+Failed 31
+Failed 1
+Failed 1
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "aaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaa" (literal [Rule(31), Rule(1), Rule(1)])
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "aaa" (literal [Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaa" (literal [Rule(31), Rule(1), Rule(14)])
+Failed 14
+Failed 16
+Failed 3
+Failed 14
+Trying sequence S=[Rule(1), Rule(12)]
+Trying to match Some(Rule(1)) against "baaa" (literal [Rule(31), Rule(12)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaa" (literal [Rule(31), Rule(12)])
+Failed 1
+Failed 13
+Failed 1
+Failed 31
+Failed 1
+Failed 1
+Failed 14
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(1)])
+Failed 14
+Failed 14
+Failed 19
+Failed 12
+Failed 1
+Failed 13
+Failed 1
+Failed 31
+Failed 14
+Failed 14
+Failed 15
+Failed 14
+Failed 15
+Failed 18
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1)])
+Trying to match Some(Rule(1)) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Failed 1
+Failed 14
+Failed 14
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(11), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11)])
+Trying to match Some(Rule(11)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31)])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(27)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(26)])
+Trying to match Some(Rule(26)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(22)]
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(22)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(22)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(20)]
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(20)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(20)])
+Trying to match Some(Rule(20)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14)])
+Failed 14
+Failed 14
+Trying sequence S=[Rule(1), Rule(15)]
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(14), Rule(15)])
+Failed 1
+Failed 20
+Failed 1
+Failed 26
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14)])
+Failed 1
+Failed 1
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(1)])
+Failed 14
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1)])
+Failed 1
+Failed 1
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(11), Rule(31)]
+Trying to match Some(Rule(42)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(27)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Trying to match Some(Rule(26)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(22)]
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(22)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(22)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(20)]
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(20)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(20)])
+Trying to match Some(Rule(20)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14)])
+Failed 14
+Failed 14
+Trying sequence S=[Rule(1), Rule(15)]
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(15)])
+Failed 1
+Failed 20
+Failed 1
+Failed 26
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Failed 1
+Failed 1
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Failed 14
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Failed 1
+Failed 1
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Failed 11
+Failed 14
+Failed 14
+Failed 15
+Failed 14
+Failed 15
+Failed 18
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying to match Some(Rule(1)) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11)])
+Failed 1
+Failed 14
+Failed 14
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Failed 11
+Failed 14
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14)])
+Failed 14
+Failed 15
+Failed 14
+Failed 15
+Failed 18
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1)])
+Failed 14
+Failed 14
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(11), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Failed 11
+Failed 14
+Failed 14
+Failed 1
+Failed 6
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(18)])
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(14), Rule(14)])
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1)])
+Failed 1
+Failed 1
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(1), Rule(1), Rule(1)])
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Failed 11
+Failed 14
+Failed 14
+Failed 14
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Failed 1
+Failed 6
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(18)])
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(14), Rule(14)])
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1)])
+Failed 1
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(1), Rule(1), Rule(1)])
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(8)]
+Trying to match Some(Rule(42)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(6)])
+Trying to match Some(Rule(6)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8), Rule(14)])
+Trying to match Some(Rule(14)) against "bbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(8)])
+Trying to match Some(Rule(8)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Rule(42)]
+Trying to match Some(Rule(42)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(6)])
+Trying to match Some(Rule(6)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbabbbbbbaabaaabaaa" (literal [Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbabbbbbbaabaaabaaa" (literal [Rule(11)])
+Trying to match Some(Rule(11)) against "bbbabbbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbbaabaaabaaa" (literal [Rule(31)])
+Trying to match Some(Rule(31)) against "bbbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(17)])
+Trying to match Some(Rule(17)) against "bbbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(14), Rule(2)]
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(2)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(2)])
+Trying to match Some(Rule(2)) against "bbbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(1), Rule(24)]
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(24)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(24)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(4)]
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(4)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(4)])
+Trying to match Some(Rule(4)) against "bbaabaaabaaa" (literal [])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbaabaaabaaa" (literal [Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbaabaaabaaa" (literal [Rule(1)])
+Failed 1
+Failed 4
+Failed 14
+Failed 2
+Failed 14
+Trying sequence S=[Rule(1), Rule(7)]
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(7)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(7)])
+Failed 1
+Failed 17
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "bbbbbaabaaabaaa" (literal [Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbbaabaaabaaa" (literal [Rule(13)])
+Failed 1
+Failed 31
+Failed 14
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(14)])
+Failed 14
+Failed 15
+Failed 14
+Failed 15
+Failed 18
+Failed 14
+Failed 27
+Failed 14
+Trying sequence S=[Rule(1), Rule(26)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(26)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(14), Rule(26)])
+Failed 1
+Failed 9
+Trying sequence S=[Rule(10), Rule(1)]
+Trying to match Some(Rule(10)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Rule(23), Rule(14)]
+Trying to match Some(Rule(23)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Rule(25), Rule(1)]
+Trying to match Some(Rule(25)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1)])
+Trying sequence S=[Rule(1), Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(1), Rule(14)])
+Failed 1
+Failed 25
+Trying sequence S=[Rule(22), Rule(14)]
+Trying to match Some(Rule(22)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(1)])
+Failed 14
+Failed 14
+Failed 14
+Failed 14
+Failed 22
+Failed 23
+Trying sequence S=[Rule(28), Rule(1)]
+Trying to match Some(Rule(28)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 15
+Trying sequence S=[Rule(14), Rule(14)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1), Rule(14)])
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Failed 1
+Failed 14
+Failed 14
+Failed 16
+Failed 28
+Failed 10
+Failed 42
+Trying sequence S=[Rule(42), Rule(11), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbabbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "babbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abbbbbbaabaaabaaa" (literal [Rule(31), Rule(11), Rule(14)])
+Trying to match Some(Rule(14)) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbbaabaaabaaa" (literal [Rule(31), Rule(11)])
+Trying to match Some(Rule(11)) against "bbbbbaabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(42), Rule(31)]
+Trying to match Some(Rule(42)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Rule(9), Rule(14)]
+Trying to match Some(Rule(9)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(27)]
+Trying to match Some(Rule(14)) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(27)])
+Trying to match Some(Rule(27)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1), Rule(6)]
+Trying to match Some(Rule(1)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(6)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(6)])
+Failed 1
+Trying sequence S=[Rule(14), Rule(18)]
+Trying to match Some(Rule(14)) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(18)])
+Trying to match Some(Rule(18)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(15), Rule(15)]
+Trying to match Some(Rule(15)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14), Rule(15)])
+Trying to match Some(Rule(15)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "bbaabaaabaaa" (literal [Rule(31), Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "baabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baabaaabaaa" (literal [Rule(31), Rule(31)])
+Trying to match Some(Rule(31)) against "aabaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "aabaaabaaa" (literal [Rule(31), Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaabaaa" (literal [Rule(31), Rule(17)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "aabaaabaaa" (literal [Rule(31), Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaabaaa" (literal [Rule(31), Rule(13)])
+Trying to match Some(Rule(13)) against "abaaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(14), Rule(3)]
+Trying to match Some(Rule(14)) against "abaaabaaa" (literal [Rule(31), Rule(3)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaabaaa" (literal [Rule(31), Rule(3)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(12)]
+Trying to match Some(Rule(1)) against "abaaabaaa" (literal [Rule(31), Rule(12)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaabaaa" (literal [Rule(31), Rule(12)])
+Trying to match Some(Rule(12)) against "baaabaaa" (literal [Rule(31)])
+Trying sequence S=[Rule(24), Rule(14)]
+Trying to match Some(Rule(24)) against "baaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Rule(14), Rule(1)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "aaabaaa" (literal [Rule(31), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaabaaa" (literal [Rule(31), Rule(14)])
+Trying to match Some(Rule(14)) against "aabaaa" (literal [Rule(31)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aabaaa" (literal [Rule(31)])
+Failed 14
+Failed 1
+Failed 14
+Failed 24
+Trying sequence S=[Rule(19), Rule(1)]
+Trying to match Some(Rule(19)) against "baaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Rule(14), Rule(1)]
+Trying to match Some(Rule(14)) against "baaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaabaaa" (literal [Rule(31), Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aaabaaa" (literal [Rule(31), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaabaaa" (literal [Rule(31), Rule(1)])
+Trying to match Some(Rule(1)) against "aabaaa" (literal [Rule(31)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aabaaa" (literal [Rule(31)])
+Trying to match Some(Rule(31)) against "abaaa" (literal [])
+Trying sequence S=[Rule(14), Rule(17)]
+Trying to match Some(Rule(14)) against "abaaa" (literal [Rule(17)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "abaaa" (literal [Rule(17)])
+Failed 14
+Trying sequence S=[Rule(1), Rule(13)]
+Trying to match Some(Rule(1)) against "abaaa" (literal [Rule(13)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "abaaa" (literal [Rule(13)])
+Trying to match Some(Rule(13)) against "baaa" (literal [])
+Trying sequence S=[Rule(14), Rule(3)]
+Trying to match Some(Rule(14)) against "baaa" (literal [Rule(3)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "baaa" (literal [Rule(3)])
+Trying to match Some(Rule(3)) against "aaa" (literal [])
+Trying sequence S=[Rule(5), Rule(14)]
+Trying to match Some(Rule(5)) against "aaa" (literal [Rule(14)])
+Trying sequence S=[Rule(1), Rule(14)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(14), Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(14), Rule(14)])
+Trying to match Some(Rule(14)) against "aa" (literal [Rule(14)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aa" (literal [Rule(14)])
+Failed 14
+Failed 1
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aaa" (literal [Rule(14), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(14), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(14), Rule(1)])
+Trying to match Some(Rule(1)) against "aa" (literal [Rule(14)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aa" (literal [Rule(14)])
+Trying to match Some(Rule(14)) against "a" (literal [])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "a" (literal [])
+Failed 14
+Failed 1
+Failed 1
+Trying sequence S=[Rule(14)]
+Trying to match Some(Rule(14)) against "aaa" (literal [Rule(14), Rule(1)])
+Trying sequence S=[Literal('b')]
+Trying to match Some(Literal('b')) against "aaa" (literal [Rule(14), Rule(1)])
+Failed 14
+Failed 15
+Failed 5
+Trying sequence S=[Rule(16), Rule(1)]
+Trying to match Some(Rule(16)) against "aaa" (literal [Rule(1)])
+Trying sequence S=[Rule(15), Rule(1)]
+Trying to match Some(Rule(15)) against "aaa" (literal [Rule(1), Rule(1)])
+Trying sequence S=[Rule(1)]
+Trying to match Some(Rule(1)) against "aaa" (literal [Rule(1), Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aaa" (literal [Rule(1), Rule(1)])
+Trying to match Some(Rule(1)) against "aa" (literal [Rule(1)])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "aa" (literal [Rule(1)])
+Trying to match Some(Rule(1)) against "a" (literal [])
+Trying sequence S=[Literal('a')]
+Trying to match Some(Literal('a')) against "a" (literal [])
+Trying to match None against "" (literal [])
+EXIT 1 WITH ""
+EXIT 1 WITH ""
+EXIT 1 WITH ""
+EXIT 15 WITH ""
+EXIT 16 WITH ""
+EXIT 3 WITH ""
+EXIT 14 WITH ""
+EXIT 13 WITH ""
+EXIT 1 WITH ""
+EXIT 31 WITH ""
+EXIT 1 WITH ""
+EXIT 1 WITH ""
+EXIT 14 WITH ""
+EXIT 19 WITH ""
+EXIT 12 WITH ""
+EXIT 1 WITH ""
+EXIT 13 WITH ""
+EXIT 1 WITH ""
+EXIT 31 WITH ""
+EXIT 14 WITH ""
+EXIT 14 WITH ""
+EXIT 15 WITH ""
+EXIT 14 WITH ""
+EXIT 15 WITH ""
+EXIT 18 WITH ""
+EXIT 14 WITH ""
+EXIT 27 WITH ""
+EXIT 14 WITH ""
+EXIT 9 WITH ""
+EXIT 42 WITH ""
+EXIT 11 WITH ""
+EXIT 14 WITH ""
+EXIT 1 WITH ""
+EXIT 15 WITH ""
+EXIT 14 WITH ""
+EXIT 15 WITH ""
+EXIT 18 WITH ""
+EXIT 14 WITH ""
+EXIT 27 WITH ""
+EXIT 14 WITH ""
+EXIT 9 WITH ""
+EXIT 42 WITH ""
+EXIT 11 WITH ""
+EXIT 14 WITH ""
+EXIT 14 WITH ""
+EXIT 1 WITH ""
+EXIT 6 WITH ""
+EXIT 1 WITH ""
+EXIT 27 WITH ""
+EXIT 14 WITH ""
+EXIT 9 WITH ""
+EXIT 42 WITH ""
+EXIT 8 WITH ""
+EXIT 14 WITH ""
+EXIT 14 WITH ""
+EXIT 14 WITH ""
+EXIT 6 WITH ""
+EXIT 1 WITH ""
+EXIT 27 WITH ""
+EXIT 14 WITH ""
+EXIT 9 WITH ""
+EXIT 42 WITH ""
+EXIT 8 WITH ""
+EXIT 0 WITH ""
+true
+Ok(0)
