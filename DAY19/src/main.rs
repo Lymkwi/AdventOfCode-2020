@@ -45,64 +45,20 @@ impl LexicalAnalyzer {
                     match u.parse::<usize>() {
                         Ok(k)   => Token::Rule(k),
                         Err(_)  =>
-                            Token::Literal(u.chars().skip(1).next().unwrap())
+                            Token::Literal(u.chars().nth(1).unwrap())
                     }
                 }).collect::<Sequence>()
             }).collect::<Rule>());
         }
         Ok(self.language.len())
     }
-    fn absorb_token<'a>(&self, st: &'a str, tok: &Token) -> Result<&'a str,()>
-    {
-        //println!("Trying to match ({}) against {:?}", st, tok);
-        match tok {
-            Token::Literal(c) => {
-                if let Some(u) = st.chars().next() {
-                    if *c == u { Ok(&st[1..]) } else { Err(()) }
-                } else {
-                    Err(())
-                }
-            },
-            Token::Rule(u) => {
-                if let Some(sequences) = self.language.get(&u) {
-                    // For every sequence in the sequences
-                    'seqloop: for seq in sequences {
-                        // For every token in that sequence
-                        //println!("Attempting sequence {:?}={:?}", tok, seq);
-                        let mut gobbled: &'a str = st;
-                        for tok in seq {
-                            let res = self.absorb_token(gobbled, tok);
-                            if res.is_err() {
-                                // Break from this sequence
-                                //println!("Failed against {:?}!", tok);
-                                continue 'seqloop;
-                            } else {
-                                gobbled = res.unwrap();
-                            }
-                        }
-                        // Successfully matched
-                        //println!("Ok against {:?}", tok);
-                        return Ok(gobbled);
-                    }
-                    return Err(()); // Reaching here means no sequence matched
-                } else {
-                    Err(())
-                }
-            }
-        }
-    
-    }
-    fn matches_whole(&self, data: &str) -> bool {
-        self.absorb_token(data, &Token::Rule(0)) == Ok("")
-    }
+
     fn resolve_literal<'a>(&self, data: &'a str, goals: &mut Vec<Token>)
         -> Result<&'a str,()>
     {
-        // Pop the goal from the vec
-        let goal = goals.pop();
         //println!("Trying to match {:?} against {:?} (literal {:?})",
             //goal, data, goals);
-        match goal {
+        match goals.pop() {
             None => {
                 // If there's nothing left to match it's cool
                 if data == "" {
@@ -114,14 +70,11 @@ impl LexicalAnalyzer {
                 }
             },
             Some(Token::Literal(c)) => {
-                if let Some(u) = data.chars().next() {
+                data.chars().next().map_or(Err(()), |u|
                     if c == u {
                         self.resolve_literal(&data[1..], goals)
                     } else { Err(()) }
-                } else {
-                    //println!("Failed Literal({:?})", c);
-                    Err(())
-                }
+                )
             },
             Some(Token::Rule(u)) => {
                 if let Some(sequences) = self.language.get(&u) {
@@ -138,7 +91,7 @@ impl LexicalAnalyzer {
                     }
                     // If you get here you're fucked
                     //println!("Failed {:?}", u);
-                    return Err(());
+                    Err(())
                 } else {
                     //println!("I don't know {:?}", u);
                     Err(())
