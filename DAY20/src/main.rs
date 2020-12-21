@@ -9,6 +9,12 @@ use regex::Regex;
 
 include!("tileset.rs");
 
+/// Read input data from file. Returns a [Result<String>][std::io::Result].
+///
+/// # Arguments
+///
+///  - `filepath` a [&str](str) holding the path to the file
+///
 fn read_data(filepath: &str) -> std::io::Result<String> {
     let mut file = File::open(filepath)?;
     let mut contents: String = String::new();
@@ -17,15 +23,21 @@ fn read_data(filepath: &str) -> std::io::Result<String> {
 }
 
 lazy_static! {
+    #[doc(hidden)]
     static ref IDMATCH: Regex = Regex::new(r"^Tile (\d+):$").unwrap();
 }
 
-// Some data structures
-
-// And now some actual problem solving
+/// # Solve Advent of Code day 20 part 1
+/// Returns the answer for part 1 of Advent of Code day 20
+/// wrapped in a [Result<usize,()>](Result).
+///
+/// # Arguments
+///
+///  - `data` : a `&str` pointing to the input text.
+///
 /// # Errors
 ///
-/// In terms of errors returns Err(()) when a problem occurs
+/// Returns Err(()) when a problem occurs.
 fn sol1(data: &str) -> Result<usize,()> {
     let mut pic = data.parse::<TileSet>().unwrap();
     //println!("{:?}", pic);
@@ -33,9 +45,19 @@ fn sol1(data: &str) -> Result<usize,()> {
     Ok(pic.get_corners().iter().product::<usize>())
 }
 
+/// # Solve Advent of Code day 20 part 2
+///
+/// By far one of the hardest days so far, day 20 part 2 is solved with
+/// this function using a naive puzzle solving algorithm. The final
+/// numeric result is returned in a [Result<usize,()>](Result)
+///
+/// # Arguments
+/// 
+///  - `data` : a `&str` pointing to the input text
+///
 /// # Errors
 ///
-/// Returns Err(()) because I can't be bothered to create a real error
+/// Returns Err(()) because I can't be bothered to create a real error.
 fn sol2(data: &str) -> Result<usize,()> {
     let mut pic = data.parse::<TileSet>().unwrap();
     let mut s = pic.extract();
@@ -50,6 +72,7 @@ fn sol2(data: &str) -> Result<usize,()> {
     Ok(s.count())
 }
 
+#[doc(hidden)]
 fn main() {
     let data = read_data("input");
     if data.is_err() {

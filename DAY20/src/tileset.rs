@@ -2,18 +2,39 @@
 include!("picture.rs");
 include!("tile.rs");
 
-/// # `TileSet`
+/// # A set of `Tile`
 ///
-/// A tileset is a container of many tiles
+/// A tileset is a container of many tiles. It indexes them using the
+/// identifiers provided in the day's input, and posses various methods
+/// interfacing with the tiles themselves.
 struct TileSet {
+    /// The tiles themselves indexed by their identifier.
     tiles: HashMap<usize, Tile>,
+    /// A vec that contains, for every tile, the different edge patterns they
+    /// can show. Of course, most patterns will appear twice or more.
+    /// This vec is built in order to find edges that only appear once (i.e.
+    /// the borders of the puzzle).
     all_possible_edges: Vec<usize>,
+    /// A picture of the final puzzle once it is built, indexed in a raster
+    /// referential, where the values are the identifiers of the tiles.
+    /// This is built using [TileSet::build](TileSet::build).
     final_puzzle: HashMap<(usize,usize),usize>,
 }
+
+/// Error thrown when parsing from `&str` to `TileSet` fails.
 #[derive(Debug)]
 struct TileSetParseError;
 
+/// Implementation of the conversion from `&str` to `TileSet`.
+///
+/// This builder takes in the raw input for that day, and
+/// processes each block by first extracting the tile's id,
+/// storing it, and then using the implementation of `FromStr`
+/// for `Tile` to obtain a tile. The `HashMap` of tiles is built
+/// along the way and the resulting `TileSet` is returned if all
+/// goes well.
 impl std::str::FromStr for TileSet {
+    /// Error thrown when parsing from `&str` to `TileSet` fails.
     type Err = TileSetParseError;
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         let mut tiles: HashMap<usize, Tile> = HashMap::new();
@@ -40,6 +61,13 @@ impl std::str::FromStr for TileSet {
     }
 }
 
+/// Debug format for a TileSet.
+///
+/// The format is a line per tile where the `Debug` format for `Tile` is
+/// prefaced with `[<...>]` where the angle brackets are replaced by its
+/// identifier.
+///
+/// Returns [Result](std::fmt::Result).
 impl std::fmt::Debug for TileSet {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         let mut newline = false;
@@ -57,37 +85,51 @@ impl std::fmt::Debug for TileSet {
     }
 }
 
+/// Implementation of a `TileSet`.
 impl TileSet {
+    /// Build all of the edges that can be shown by every tile,
+    /// accounting for duplicates across tiles and keeping them.
+    /// The `Vec` created is used later 
     fn build_all_possible_edges(&mut self) {
         self.all_possible_edges = self.tiles.values()
             .flat_map(Tile::all_possible_edges)
             .collect::<Vec<usize>>();
     }
-    // Find corners
+    /// Get the tile identifier of the four corner tiles.
+    /// Requires that the possible edges vector be built,
+    /// or it will return an empty `HashSet`.
     fn get_corners(&self) -> HashSet<usize> {
-        let mut corners = HashSet::new();
-        for (id, tile) in &self.tiles {
+        self.tiles.iter().filter_map(|(&k,tile)|
             if tile.all_possible_edges().iter()
                 .filter(|x|
                         self.all_possible_edges.iter()
                         .filter(|y| y==x).count() == 1).count() == 4 {
-                    corners.insert(*id);
-                }
-        }
-        corners
+                    Some(k)
+                } else { None }
+        ).collect::<HashSet<usize>>()
     }
+    /// Get the tile identifier of the pure edges (i.e. corner excluded).
+    /// Requires that the possible edges vector be built, or it will
+    /// return an empty `HashSet`.
     fn get_pure_edges(&self) -> HashSet<usize> {
-        let mut pure_edges = HashSet::new();
-        for (id, tile) in &self.tiles {
+        self.tiles.iter().filter_map(|(&k,tile)| 
             if tile.all_possible_edges().iter()
                 .filter(|x|
                         self.all_possible_edges.iter()
                         .filter(|y| y==x).count() == 1).count() == 2 {
-                    pure_edges.insert(*id);
-                }
-        }
-        pure_edges
+                    Some(k)
+                } else { None }
+        ).collect::<HashSet<usize>>()
     }
+    /// Get the edges of a tile which identifier is given that are borders
+    /// of the puzzle.
+    ///
+    /// # Arguments
+    ///
+    ///  - `c` : the tile's identifier as a `usize`.
+    ///
+    /// Requires that the possible edges vector be built, or it will
+    /// return an empty `HashSet`.
     fn get_unique_edges(&self, c: usize) -> HashSet<usize> {
         self.tiles[&c].all_possible_edges()
             .iter().filter(|x|
@@ -95,6 +137,15 @@ impl TileSet {
                     .filter(|y| y==x).count() == 1)
             .copied().collect()
     }
+    /// Rotate a tile which identifier is given as argument in-place.
+    ///
+    /// # Arguments
+    ///
+    ///  - `c` : the identifier of the tile to get.
+    ///
+    /// # Panics
+    ///
+    /// Will panic if the required tile does not exist.
     fn rotate_right(&mut self, c: usize) {
         if let Some(tile) = self.tiles.get_mut(&c) {
             tile.rotate_right();    
@@ -135,6 +186,9 @@ impl TileSet {
             //println!("CURRENT={:?}", self.tiles[&corner]);
         }
     }
+    /// Prepare all of the pure edges of the tile set.
+    ///
+    /// The unique edge of every one of those tiles is placed up.
     fn prepare_edges(&mut self) {
         for edge_tile in self.get_pure_edges() {
             let unique_edges = self.get_unique_edges(edge_tile);
@@ -144,6 +198,31 @@ impl TileSet {
         }
     }
     // Build the damn puzzle
+    /// Builds the puzzle.
+    ///
+    /// This method is particularly slow and badly written. It calls every
+    /// other method that needs to be called beforehand (in order) :
+    ///  - [TileSet::build_all_possible_edges](TileSet::build_all_possible_edges)
+    ///  - [TileSet::prepare_corners](TileSet::prepare_corners)
+    ///  - [TileSet::prepare_edges](TileSet::prepare_edges)
+    ///
+    /// It then uses a naive puzzle solving algorithm to build the puzzle
+    /// by examining tile after tile and placing them one after another,
+    /// row after row, starting from the top left edge of the puzzle.
+    ///
+    /// This method is absurdly slow, and big, and clunky, but I do not care.
+    /// I spent six hours writing it again and again until it worked without
+    /// crashing.
+    ///
+    /// This method only works thanks to the property of today's input that
+    /// ***for a fixed starting piece, at every point, there is only one piece
+    /// that can fix the constraints of its neighbours and, if any, the
+    /// constraint of being a border piece***.
+    ///
+    /// # Panics
+    ///
+    /// Will panic under a wide array of circumstances, most of which are
+    /// undetermined, some of which may be more likely than you think.
     fn build(&mut self) {
         // Compute all the edges across tiles
         self.build_all_possible_edges();
@@ -344,8 +423,13 @@ impl TileSet {
             }
         }
     }
-    /// Extract the picture
-    /// Do not remove the edges yet
+    /// Extract a `Picture` from the built puzzle.
+    /// 
+    /// The picture extracted follows the convention from today's problem
+    /// that the edges of every tile is removed.
+    ///
+    /// This method also builds the puzzle by calling
+    /// [TileSet::build](TileSet::build).
     fn extract(&mut self) -> Picture {
         let mut s: HashMap<(usize,usize),char> = HashMap::new();
         self.build();
