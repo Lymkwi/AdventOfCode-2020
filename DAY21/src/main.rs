@@ -1,3 +1,6 @@
+//! This crates contains the code necessary to solve Advent of Code day 21,
+//! all written in Rust.
+
 #[macro_use] extern crate lazy_static;
 extern crate regex;
 
@@ -8,9 +11,17 @@ use std::collections::{HashMap, HashSet};
 use regex::Regex;
 
 lazy_static! {
+    #[doc(hidden)]
     static ref INGREDIENTS: Regex = Regex::new(r"^(.*) \(contains (.*)\)$").unwrap();
 }
 
+/// Read the day's input data from a file.
+///
+/// Returns a [Result<String>](std::io::Result).
+///
+/// # Arguments
+///
+///  - `filepath` : a `&str` holding a reference to the string of the file path
 fn read_data(filepath: &str) -> std::io::Result<String> {
     let mut file = File::open(filepath)?;
     let mut contents: String = String::new();
@@ -18,9 +29,18 @@ fn read_data(filepath: &str) -> std::io::Result<String> {
     Ok(contents.trim().to_string())
 }
 
+/// Solve Advent of Code Day 21 part 1... and 2
+///
+/// Prints the solution to part 2 then returns a [Result<usize,()>](Result)
+/// containing the answer to part 1.
+///
+/// # Arguments
+///
+///  - `data` : a `&str` pointing to this day's input text
+///
 /// # Errors
 ///
-/// Returns Err(()) upon failure
+/// Returns Err(()) upon failure.
 fn sol1(data: &str) -> Result<usize,()> {
     let mut ingredients: HashMap<usize,String> = HashMap::new();
     let mut allergens: HashMap<usize,String> = HashMap::new();
@@ -105,6 +125,7 @@ fn sol1(data: &str) -> Result<usize,()> {
             ings.iter().filter(|x| safe_food.contains(&x)).count()).sum())
 }
 
+#[doc(hidden)]
 fn main() {
     let data = read_data("input");
     if data.is_err() {
