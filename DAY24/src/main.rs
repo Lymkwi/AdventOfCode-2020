@@ -180,13 +180,13 @@ fn sol1(data: &str) -> Result<usize,()> {
 /// immediate neighbours of the tile which coordinates are provided as arguments.
 fn immediate_neighbours(y: isize, x: isize) -> HashSet<(isize,isize)> {
     [
-        (y-1, x-1), // NW
-        (y  , x-2), // W
-        (y+1, x-1), // SW
-        (y+1, x+1), // SE
-        (y  , x+2), // E
-        (y-1, x+1)  // NE
-    ].iter().cloned().collect()
+        (-1,-1), // NW
+        ( 0,-2), // W
+        ( 1,-1), // SW
+        ( 1, 1), // SE
+        ( 0, 2), // E
+        (-1, 1)  // NE
+    ].iter().map(|(dy,dx)| (dy+y,dx+x)).collect()
 }
 
 /// Solve Advent of Code day 24 part 2
